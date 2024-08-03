@@ -1,0 +1,9 @@
+.keyVal{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 10px;
+    place-items: center;
+    /* display: flex;
+    justify-content: center; */
+}

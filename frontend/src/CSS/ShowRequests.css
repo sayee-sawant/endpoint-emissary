@@ -1,0 +1,125 @@
+/* *{
+    background-color: #fff;
+} */
+h3 {
+  text-align: center;
+  /* background-color: aqua;   */
+}
+
+/* @media (max-width:1072px){
+    .opt{
+        background-color: aqua;  
+    }
+    
+} */
+.deleteB:hover {
+  transform: scale(1.2);
+}
+.deleteB {
+  align-items: center;
+
+  border-color: pink;
+  height: 45px;
+  width: 50px;
+}
+.delete {
+  height: 30px;
+  margin-top: -3px;
+  /* margin-bottom: px; */
+  margin-left: -10px;
+}
+.titEditDel {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 10px;
+}
+.titEditDel button {
+  margin: 7px;
+  /* background-color: gray; */
+}
+/* .reqData {
+  background-color: red;
+} */
+.title {
+  /* background-color: yellow; */
+  width: 200px;
+  text-align: start;
+}
+.tableData {
+  border: 5px solid antiquewhite;
+  /* border: 5px solid green; */
+}
+.options {
+  /* margin-top: 80px; */
+  position: sticky;
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* animation-name: rightMovement2; */
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  animation-delay: 0s;
+}
+
+.edit-btn {
+  /* paddingInline: "10px ",
+    cursor: "pointer",
+    border: "1px",
+    borderColor: "1px solid black",
+    pa */
+  padding: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(189, 251, 251);
+  /* padding-top: 10px; */
+  border-radius: 10px;
+}
+.edit-btn:hover {
+  border: 1px solid rgb(76, 238, 238);
+}
+
+/*.table2 {
+  /* display: flex; */
+  /* position: fixed; */
+  /* justify-content: space-between;
+  align-items: center; */
+
+  /* text-align: center; */
+  /* background-color: goldenrod;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); */
+  /* margin-top: -150px;
+    margin-left: 550px; */
+  /* align-content: center; }*/
+.options {
+  animation-name: rightMovement;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-delay: 1s;
+}
+@keyframes rightMovement {
+  from {
+    top: 70;
+    left: 0;
+  }
+  to {
+    top: 70;
+    left: 500px;
+  }
+}
+
+@keyframes rightMovement2 {
+  from {
+    top: 70;
+    left: 0;
+  }
+  to {
+    top: 70;
+    left: 400px;
+  }
+}
+
+/* table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  } */

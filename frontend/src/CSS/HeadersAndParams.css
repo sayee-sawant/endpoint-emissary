@@ -1,0 +1,17 @@
+.type{
+    text-align: center;
+    /* align-content: center; */
+    /* justify-items: center; */
+    /* justify-self: center; */
+    /* align-: center; */
+    /* text-justify: center; */
+    /* color: brown; */
+    /* justify-self: center; */
+}
+.AddParent{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* justify-self: center; */
+    /* background-color: yellow; */
+}

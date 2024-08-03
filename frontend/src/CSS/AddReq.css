@@ -1,0 +1,94 @@
+/* *{
+    background-color: yellowgreen;
+} */
+.modal{
+  width: 40%;
+  /* height: 70%; */
+  padding-top: 20px;
+  border-radius: 10px;
+  /* background-color: rgb(128, 102, 128); */
+  background-color: rgb(154, 21, 81);
+  animation: slideLeft 3s ease forwards;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+ @keyframes slideLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+ }
+.AddReq:hover{
+  transform: scale(1.05);
+}
+.buttons{
+  width: 100vw;
+  margin-top:-330px;
+  /* position: top; */
+  display: flex;
+  align-items: center;
+  justify-content:end;
+  margin-right: -10px;
+}
+.title1{
+    color: black;
+    font-size: 20px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* width: 400px; */
+    background-color: #e8e7e7;
+    /* background-color: #fff; */
+    /* box-shadow: 3px 3px 4px pink; */
+}
+.inputData{
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+/* .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  @media (max-width:1072px){
+    .modal{
+      height:auto;
+    }
+}
+  
+  /* .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+   
+   */
+   .AddReq{
+    margin-top: 100px;
+    margin-right: 10px;
+    
+    /* float: right; */
+    /* position: fixed; */
+    /* margin-bottom: 90px; */
+    /* background-color: pink; */
+    /* align-self: center; */
+   }
